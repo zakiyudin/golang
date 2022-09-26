@@ -41,5 +41,9 @@ func main() {
 	const PI = 3.14
 
 	fmt.Println(PI)
-	fmt.Printf("PI has value : %v and type : %T", PI, PI)
+	fmt.Printf("PI has value : %v and type : %T", PI, PI, "\n")
+
+	var qw, wq = "coba", "saja"
+	fmt.Print(qw, "\n")
+	fmt.Print(wq, "\n")
 }
